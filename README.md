@@ -42,7 +42,7 @@ Folder "UCI HAR Dataset" must be in the current work directory and include the s
 [run_analysis.R] Aggregating by Subjectid and Activity
 [run_analysis.R] Adding activity names
 [run_analysis.R] Writing 'tidy.csv' file to the target directory 
-
+[run_analysis.R] Writing 'tidy.txt' file to the target directory 
 ```
 ###### Tidy Data
 * The resulting tidy files are named tidy.csv and tidy.txt located within the "UCI HAR Dataset" folder after completion of run_analysis.R.
