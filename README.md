@@ -14,7 +14,7 @@ www.smartlab.ws
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. See 'features_info.txt' for more details. 
 ======================================
-### Getting and Cleaning Data - Coursera Project
+###### Getting and Cleaning Data - Coursera Project
 conducted by Ed Spinella
 Source dataset https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
@@ -32,7 +32,7 @@ Download and extract the archive to a folder named `data`. You can then execute 
 3. a readme file
 4. a "tidy.csv" file
 
-### Running the script
+###### Running the script
 Folder "UCI HAR Dataset" must be in the current work directory and include the source file run_analysis.R.
 To run the script, source `run_analysis.R`. After running, you will see the following output as the script works:
 
@@ -52,7 +52,7 @@ To run the script, source `run_analysis.R`. After running, you will see the foll
 [run_analysis.R] Adding activity names
 [run_analysis.R] Writing 'tidy.csv' file to the target directory 
 
-### Process
+###### Process
 
 1. For both the test and train datasets, produce an interim dataset:
     1. Extract the mean and standard deviation features (listed in CodeBook.md, section 'Extracted Features'). This is the `values` table.
@@ -65,7 +65,7 @@ To run the script, source `run_analysis.R`. After running, you will see the foll
 4. Rejoin the entire table, keying on subject/acitivity pairs, applying the mean function to each vector of values in each subject/activity pair. This is the clean dataset.
 5. Write the clean dataset to disk.
 
-### Cleaned Data
+###### Cleaned Data
 
 The resulting clean file is named tidy.csv and will be located within the "UCI HAR Dataset" folder after completion of run_analysis.R.
 The resulting .csv file contains one row for each subject/activity pair and columns for subject, activity, and each feature that was a mean or standard deviation from the original dataset.
