@@ -1,0 +1,123 @@
+Enter file contents here
+
+### Original study:
+
+- A description of the study is located at the University Of Irvine Center for Machine Learning and Inteliigent Systems Machine Learning Repository 
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
+
+- The dataset source is located at: (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
+
+### Original dataset:
+
+The UCIHAR Dataset is the described as following from the source:
+
+The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing 
+
+a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. The experiments have been 
+
+video-recorded to label the data manually. The obtained dataset has been randomly partitioned into two sets, where 70% of the volunteers was selected for generating the training data and 30% the test data. The sensor signals 
+
+(accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has 
+
+gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 
+
+0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.  
+
+### Original Variable Descriptions
+
+The data for this data set was derived from sources mentioned in the "Original data" section of this document. Part of the description below has been taken from the original data description.
+
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. 
+
+Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity 
+
+acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz.
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). Also the magnitude of these three-dimensional signals were calculated using 
+
+the Euclidean norm (tBodyAccMag, tGravityAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag).
+
+Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain 
+
+signals).
+
+These signals were used to estimate variables of the feature vector for each pattern: '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+The set of variables that were estimated from these signals are:
+- mean: Mean value
+- std: Standard deviation
+
+### Tidy Data
+
+A file named "tidy.csv" and "tidy.txt result from the run_analysis.R with data for a selected subset of 68 (SubjectID, Activity and 66 mean and std variables); variables are provided informative column names:   
+
+1	SubjectID
+2	Activity
+3	Time.BodyAccMean-X
+4	Time.BodyAccMean-Y
+5	Time.BodyAccMean-Z
+6	Time.BodyAccStd-X
+7	Time.BodyAccStd-Y
+8	Time.BodyAccStd-Z
+9	Time.GravityAccMean-X
+10	Time.GravityAccMean-Y
+11	Time.GravityAccMean-Z
+12	Time.GravityAccStd-X
+13	Time.GravityAccStd-Y
+14	Time.GravityAccStd-Z
+15	Time.BodyAccJerkMean-X
+16	Time.BodyAccJerkMean-Y
+17	Time.BodyAccJerkMean-Z
+18	Time.BodyAccJerkStd-X
+19	Time.BodyAccJerkStd-Y
+20	Time.BodyAccJerkStd-Z
+21	Time.BodyGyroMean-X
+22	Time.BodyGyroMean-Y
+23	Time.BodyGyroMean-Z
+24	Time.BodyGyroStd-X
+25	Time.BodyGyroStd-Y
+26	Time.BodyGyroStd-Z
+27	Time.BodyGyroJerkMean-X
+28	Time.BodyGyroJerkMean-Y
+29	Time.BodyGyroJerkMean-Z
+30	Time.BodyGyroJerkStd-X
+31	Time.BodyGyroJerkStd-Y
+32	Time.BodyGyroJerkStd-Z
+33	Time.BodyAccMagMean
+34	Time.BodyAccMagStd
+35	Time.GravityAccMagMean
+36	Time.GravityAccMagStd
+37	Time.BodyAccJerkMagMean
+38	Time.BodyAccJerkMagStd
+39	Time.BodyGyroMagMean
+40	Time.BodyGyroMagStd
+41	Time.BodyGyroJerkMagMean
+42	Time.BodyGyroJerkMagStd
+43	FFT.BodyAccMean-X
+44	FFT.BodyAccMean-Y
+45	FFT.BodyAccMean-Z
+46	FFT.BodyAccStd-X
+47	FFT.BodyAccStd-Y
+48	FFT.BodyAccStd-Z
+49	FFT.BodyAccJerkMean-X
+50	FFT.BodyAccJerkMean-Y
+51	FFT.BodyAccJerkMean-Z
+52	FFT.BodyAccJerkStd-X
+53	FFT.BodyAccJerkStd-Y
+54	FFT.BodyAccJerkStd-Z
+55	FFT.BodyGyroMean-X
+56	FFT.BodyGyroMean-Y
+57	FFT.BodyGyroMean-Z
+58	FFT.BodyGyroStd-X
+59	FFT.BodyGyroStd-Y
+60	FFT.BodyGyroStd-Z
+61	FFT.BodyAccMagMean
+62	FFT.BodyAccMagStd
+63	FFT.BodyAccJerkMagMean
+64	FFT.BodyAccJerkMagStd
+65	FFT.BodyGyroMagMean
+66	FFT.BodyGyroMagStd
+67	FFT.BodyGyroJerkMagMean
+68	FFT.BodyGyroJerkMagStd
+ 
+ 
