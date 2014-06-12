@@ -53,6 +53,7 @@ TIDY DATA ANALYSIS
 
 TIDY DATA
 A file named "tidy.csv" and "tidy.txt result from the run_analysis.R with data for a selected subset of 68 (SubjectID, Activity and 66 mean and std variables); variables are provided informative column names:   
+In this tidy dataset analysis, there were no changes to original UNITS of measurement (std/mean) from the original study.
 
 1	SubjectID
 2	Activity
