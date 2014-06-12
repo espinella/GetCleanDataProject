@@ -17,11 +17,13 @@ Tidy data analysis conducted by Ed Spinella:
 *  Uses descriptive activity names to name the activities in the data set
 *  Appropriately labels the data set with descriptive activity names.
 *  Creates an independent tidy data set (.csv and .txt file) with the average of each variable for each activity and each subject
-The dataset includes the following files:
+
+### The analysis includes the following files:
 1. Script called `run_analysis.R` to run against the dataset available at (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
-2. A codebook is availablddatsete in the repository and is named `CodeBook.md`.
-3. a readme file
-4. a "tidy.csv" file
+2. codebook file
+3. readme file
+4. tidy.csv and .txt files
+
 
 ###### Running the script
 Folder "UCI HAR Dataset" must be in the current work directory and include the source file run_analysis.R.
