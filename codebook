@@ -46,7 +46,7 @@ The set of variables that were estimated from these signals are:
 - mean: Mean value
 - std: Standard deviation
 
-Tidy Data
+TIDY DATA
 
 A file named "tidy.csv" and "tidy.txt result from the run_analysis.R with data for a selected subset of 68 (SubjectID, Activity and 66 mean and std variables); variables are provided informative column names:   
 
