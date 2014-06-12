@@ -20,7 +20,7 @@ gravitational and body motion components, was separated using a Butterworth low-
 
 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.  
 
-Original Variable Descriptions
+ORIGINAL DATA DESCRIPTION:
 
 The data for this data set was derived from sources mentioned in the "Original data" section of this document. Part of the description below has been taken from the original data description.
 
