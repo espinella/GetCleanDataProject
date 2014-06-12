@@ -1,13 +1,12 @@
-Enter file contents here
 
-### Original study:
+Original study:
 
 - A description of the study is located at the University Of Irvine Center for Machine Learning and Inteliigent Systems Machine Learning Repository 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
 - The dataset source is located at: (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) 
 
-### Original dataset:
+Original dataset:
 
 The UCIHAR Dataset is the described as following from the source:
 
@@ -23,7 +22,7 @@ gravitational and body motion components, was separated using a Butterworth low-
 
 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain.  
 
-### Original Variable Descriptions
+Original Variable Descriptions
 
 The data for this data set was derived from sources mentioned in the "Original data" section of this document. Part of the description below has been taken from the original data description.
 
@@ -47,7 +46,7 @@ The set of variables that were estimated from these signals are:
 - mean: Mean value
 - std: Standard deviation
 
-### Tidy Data
+Tidy Data
 
 A file named "tidy.csv" and "tidy.txt result from the run_analysis.R with data for a selected subset of 68 (SubjectID, Activity and 66 mean and std variables); variables are provided informative column names:   
 
