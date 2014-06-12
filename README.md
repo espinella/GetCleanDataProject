@@ -1,8 +1,8 @@
 GetCleanDataProject
 ===================
-## Human Activity Recognition Using Smartphones Dataset Version 1.0
+### Human Activity Recognition Using Smartphones Dataset Version 1.0
 
-## Original work conducted by: 
+### Original work conducted by: 
 Jorge L. Reyes-Ortiz, Davide Anguita, Alessandro Ghio, Luca Oneto.
 Smartlab - Non Linear Complex Systems Laboratory
 ###### Original experiment:
