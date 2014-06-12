@@ -25,8 +25,7 @@ Tidy data analysis conducted by Ed Spinella:
 4. tidy.csv and .txt files
 
 ###### Running the script
-Folder "UCI HAR Dataset" must be in the current work directory and include the source file run_analysis.R.
-To run the script, source `run_analysis.R`. After running, you will see the following output as the script works:
+Folder "UCI HAR Dataset" must be in the current work directory and include the source file run_analysis.R. The following messages appear as the run_analysis.R script runs:
 
 ```
 [run_analysis.R] Loading test x, test y and subject test data
@@ -46,5 +45,5 @@ To run the script, source `run_analysis.R`. After running, you will see the foll
 
 ```
 ###### Tidy Data
-* The resulting tidy files are named tidy.csv and tidy.txt; located within the "UCI HAR Dataset" folder after completion of run_analysis.R.
+* The resulting tidy files are named tidy.csv and tidy.txt located within the "UCI HAR Dataset" folder after completion of run_analysis.R.
 * The resulting .csv and .txt files contains one row for each subject/activity pair and columns for subject, activity, and each feature that was a mean or standard deviation from the original dataset.
