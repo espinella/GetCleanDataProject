@@ -14,7 +14,7 @@ library(reshape)
   
 ## Ensure the "UCI HAR Dataset" folder is set in your setwd() target path
  
-setwd("C:/Users/Ed/UCI HAR Dataset")
+##setwd("C:/Users/Ed/UCI HAR Dataset")
  
 ##load test data
 message("Loading test x, test y and subject test data")
