@@ -45,6 +45,6 @@ To run the script, source `run_analysis.R`. After running, you will see the foll
 [run_analysis.R] Writing 'tidy.csv' file to the target directory 
 
 ```
-###### Cleaned Data
-The resulting clean file is named tidy.csv and will be located within the "UCI HAR Dataset" folder after completion of run_analysis.R.
-The resulting .csv and .txt files contains one row for each subject/activity pair and columns for subject, activity, and each feature that was a mean or standard deviation from the original dataset.
+###### Tidy Data
+* The resulting tidy files are named tidy.csv and tidy.txt; located within the "UCI HAR Dataset" folder after completion of run_analysis.R.
+* The resulting .csv and .txt files contains one row for each subject/activity pair and columns for subject, activity, and each feature that was a mean or standard deviation from the original dataset.
