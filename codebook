@@ -55,7 +55,6 @@ TIDY DATA ANALYSIS
 • Creates an independent tidy data set (.csv and .txt file) with the average of each variable for each activity and each subject
 
 TIDY DATA
-
 A file named "tidy.csv" and "tidy.txt result from the run_analysis.R with data for a selected subset of 68 (SubjectID, Activity and 66 mean and std variables); variables are provided informative column names:   
 
 1	SubjectID
