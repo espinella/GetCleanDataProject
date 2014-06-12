@@ -8,7 +8,7 @@
 ## 1. Loads and merges the training and test sets to create one data set.
 ## 2. Loads and merges tidy activity and feature names to the merged traning/test sub dataset  
 ## 3. Selects a subset of the training/test dataset with a mean or std characteristic
-## 4. Writes to a .txt and to a .csv file
+## 4. Writes to a .txt and .csv file
 
 library(reshape)
   
